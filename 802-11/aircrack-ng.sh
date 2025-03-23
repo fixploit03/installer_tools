@@ -3,7 +3,7 @@
 #-------------------------------------------------------------
 # Tentang Script:
 #
-# * Nama file: aircrack.sh
+# * Nama file: aircrack-ng.sh
 # * Deskripsi: Script Bash untuk instal tool aircrack-ng secara otomatis
 # * Dibuat oleh: Rofi (Fixploit03)
 # * Github: https://github.com/fixploit03/installer_tools
