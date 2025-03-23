@@ -19,7 +19,7 @@
 #---------------------------------------------------------------
 
 apt-get update -y
-apt-get -y install build-essential libpcap-dev curl
+apt-get -y install build-essential libpcap-dev curl -y
 # instal aircrack-ng (jika belum ada)
 if [[ ! -d "/opt/aircrack-ng" ]]; then
       sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/fixploit03/installer_tools/refs/heads/main/802-11/aircrack.sh)"
