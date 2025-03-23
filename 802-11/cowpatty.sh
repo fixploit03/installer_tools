@@ -20,6 +20,7 @@
 
 apt-get update -y
 apt install git clang -y
+cd /opt
 git clone https://github.com/joswr1ght/cowpatty
 cd cowpatty
 make
