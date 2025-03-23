@@ -19,7 +19,7 @@
 #---------------------------------------------------------------
 
 apt-get update -y
-apt install build-essential libpcap-dev sqlite3 libsqlite3-dev git
+apt install build-essential libpcap-dev sqlite3 libsqlite3-dev git -y
 cd /opt
 git clone https://github.com/t6x/reaver-wps-fork-t6x.git
 cd reaver-wps-fork-t6x
