@@ -28,6 +28,7 @@ cd Python-2.7.18
 ./configure --enable-optimizations
 make altinstall
 python2.7 --version
+ln -s "/usr/local/bin/python2.7" "/usr/bin/python"
 # instal pip2
 apt-get install curl -y
 curl https://bootstrap.pypa.io/pip/2.7/get-pip.py -o get-pip.py
