@@ -32,7 +32,7 @@ ln -s "/usr/local/bin/python2.7" "/usr/bin/python"
 # instal pip2
 apt-get install curl -y
 curl https://bootstrap.pypa.io/pip/2.7/get-pip.py -o get-pip.py
-python2.7 get-pip.py
+python get-pip.py
 pip2 --version
 # instal pyrit
 cd /opt
@@ -41,6 +41,8 @@ tar zxvf 0.4.0.tar.gz
 cd Pyrit-0.4.0
 tar zxvf pyrit-0.4.0.tar.gz
 cd pyrit-0.4.0
-python2.7 setup.py clean
-python2.7 setup.py build
-python2.7 setup.py install
+python setup.py clean
+python setup.py build
+python setup.py install
+
+# - END -
