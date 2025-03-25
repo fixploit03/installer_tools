@@ -33,3 +33,5 @@ git clone https://github.com/aanarchyy/bully
 cd bully/src
 make
 make install
+
+# - END -
