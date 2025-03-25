@@ -25,3 +25,5 @@ git clone https://github.com/joswr1ght/cowpatty
 cd cowpatty
 make
 make install
+
+# - END -
