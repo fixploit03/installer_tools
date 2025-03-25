@@ -19,7 +19,7 @@
 #---------------------------------------------------------------
 
 apt-get update -y
-apt-get install build-essential gcc make pkg-config libssl-dev librt-dev zlib1g-dev libcurl4-openssl-dev libpcap-dev git -y
+apt-get install build-essential gcc make pkg-config libssl-dev zlib1g-dev libcurl4-openssl-dev libpcap-dev git -y
 cd /opt
 git clone https://github.com/ZerBea/hcxtools
 cd hcxtools
