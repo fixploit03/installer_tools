@@ -18,22 +18,11 @@
 # * https://github.com/JPaulMora/Pyrit/
 #---------------------------------------------------------------
 
-apt-get update -y
-# instal python2.7.18
-apt-get install build-essential wget tar checkinstall libncursesw5-dev libncurses5-dev libssl-dev libsqlite3-dev  tk-dev libgdbm-dev libc6-dev libbz2-dev zlib1g-dev libgdbm-dev libnss3-dev libreadline-dev libffi-dev -y
-cd /usr/src
-wget https://www.python.org/ftp/python/2.7.18/Python-2.7.18.tgz
-tar xzf Python-2.7.18.tgz
-cd Python-2.7.18
-./configure --enable-optimizations
-make altinstall
-python2.7 --version
-ln -s "/usr/local/bin/python2.7" "/usr/bin/python"
-# instal pip2
-apt-get install curl -y
-curl https://bootstrap.pypa.io/pip/2.7/get-pip.py -o get-pip.py
-python get-pip.py
-pip2 --version
+# instal python2.7.18 (jika belum ada)
+if [[ ! -d "/usr/srcPython-2.7.18" ]]; then
+      sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/fixploit03/installer_tools/refs/heads/main/programming%20language/python/python2/python2.7.18/instal.sh)"
+fi
+
 # instal pyrit
 cd /opt
 wget https://github.com/JPaulMora/Pyrit/archive/refs/tags/0.4.0.tar.gz
