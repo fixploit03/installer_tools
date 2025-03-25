@@ -25,3 +25,5 @@ git clone https://github.com/ZerBea/hcxdumptool
 cd hcxdumptool
 make -j $(nproc)
 make install
+
+# - END -
