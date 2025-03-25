@@ -30,3 +30,5 @@ sudo usermod -aG kismet $USER
 
 # reboot sistem dengan 'reboot'
 # ketikkan 'groups' untuk melihat apakah user sudah ada di dalam grup kismet atau tidak.
+
+# - END -
