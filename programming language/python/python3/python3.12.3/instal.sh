@@ -20,7 +20,7 @@
 
 apt update
 apt install build-essential libffi-dev libgdbm-dev libncurses5-dev libreadline-dev libsqlite3-dev libssl-dev libbz2-dev liblzma-dev zlib1g-dev tk-dev uuid-dev libnss3-dev wget git libexpat1-dev libmpdec-dev libpcre3-dev libfreetype6-dev libjpeg-dev libpng-dev -y
-cd /opt
+cd /usr/src
 wget https://www.python.org/ftp/python/3.12.3/Python-3.12.3.tgz
 tar -xvf Python-3.12.3.tgz
 cd Python-3.12.3
