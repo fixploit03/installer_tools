@@ -31,6 +31,7 @@ sudo git clone https://github.com/hashcat/hashcat
 cd hashcat
 make
 make install
+
 # - END -
 
 
