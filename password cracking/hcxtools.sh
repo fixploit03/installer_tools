@@ -25,5 +25,6 @@ git clone https://github.com/ZerBea/hcxtools
 cd hcxtools
 make -j $(nproc)
 make install
+ln -s /usr/bin/hcxpcapngtool /usr/bin/hcxpcaptool
 
 # - END -
