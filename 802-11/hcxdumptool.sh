@@ -19,7 +19,7 @@
 #---------------------------------------------------------------
 
 apt-get update -y
-apt-get install gcc make libpcap libpcap-dev -y
+apt-get install build-essential libssl-dev zlib1g-dev gcc make libpcap-dev git -y
 cd /opt
 git clone https://github.com/ZerBea/hcxdumptool
 cd hcxdumptool
