@@ -26,3 +26,5 @@ cd reaver-wps-fork-t6x/src
 ./configure
 make
 make install
+
+# - END -
