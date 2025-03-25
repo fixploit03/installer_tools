@@ -25,3 +25,5 @@ git clone https://github.com/wiire-a/pixiewps
 cd pixiewps
 make
 make install
+
+# - END -
