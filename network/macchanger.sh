@@ -19,7 +19,7 @@
 #---------------------------------------------------------------
 
 apt-get update
-apt install build-essential libc6-dev autoconf automake libtool pkg-config git -y
+apt install build-essential libc6-dev autoconf automake libtool pkg-config texinfo git -y
 cd /opt
 git clone https://github.com/alobbs/macchanger
 cd macchanger
