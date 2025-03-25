@@ -25,3 +25,5 @@ git clone https://github.com/ZerBea/hcxtools
 cd hcxtools
 make -j $(nproc)
 make install
+
+# - END -
