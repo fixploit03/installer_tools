@@ -28,3 +28,5 @@ cd build
 cmake ../
 make
 make install
+
+# - END -
