@@ -29,3 +29,5 @@ autoreconf -i
 make
 make install
 ldconfig
+
+# - END -
