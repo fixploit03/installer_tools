@@ -1,4 +1,4 @@
 - [ Pending ] Hashcat di GPU (install drivernya)
 - [ Pending ] Masalah di dependensi python3.12.3
 - [ DONE ] Saat menangkap 4-way Handshake aircrack-ng (kaga nongol Handshakenya)
-- [ Pending ] Error saat crack WPA2 aircrack-ng (dimana seharusnya kata sandi yang benar adalah qwerty12345 malah qwertyu12345)
+- [ DONE ] Error saat crack WPA2 aircrack-ng (dimana seharusnya kata sandi yang benar adalah qwerty12345 malah qwertyu12345)
